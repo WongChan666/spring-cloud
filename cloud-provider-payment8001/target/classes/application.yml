@@ -1,0 +1,29 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: cloud-payment-service
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+    username: root
+    password: 123456
+
+eureka:
+  client:
+    #表示是否将自己注册为EurekaService,默认为true
+    register-with-eureka: true
+    #是否从EurekaService住抓取已有的注册信息，默认为true。集群必须设置为true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.meinergy.springcloud.eneities   #所有eneity别名类所在包
+mybatis-plus:
+  config-location: classpath:mybatis-configration.xml
+  type-aliases-package: com.meinergy.springcloud.eneities
+
