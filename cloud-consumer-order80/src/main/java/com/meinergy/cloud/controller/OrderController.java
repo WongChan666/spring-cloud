@@ -48,5 +48,4 @@ public class OrderController {
     public CommonResult<Payment> create(@RequestParam(value = "id") Long id){
         return restTemplate.getForObject(PAYMENT_URL+"/payment/get?id="+id,CommonResult.class);
     }
-
 }

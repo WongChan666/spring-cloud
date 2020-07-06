@@ -18,6 +18,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @version:
  */
 @SpringBootApplication
+@EnableSwagger2
 @EnableEurekaClient
 @MapperScan("com.meinergy.springcloud.dao")
 public class PaymentMain8001 {
