@@ -21,7 +21,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  */
 @EnableSwagger2
 @EnableEurekaClient
-@SpringBootApplication//(exclude={DataSourceAutoConfiguration.class},(scanBasePackages = {"com.meinergy.springcloud","com.meinergy.cloud"})
+@SpringBootApplication(exclude={DataSourceAutoConfiguration.class})
 //@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class, DataSourceTransactionManagerAutoConfiguration.class})
 public class OrderMain80 {
     public static void main(String[] args) {
@@ -29,7 +29,7 @@ public class OrderMain80 {
     }
 
     @Bean
-    public ConfigurableServletWebServerFactory webServerFactory1() {
+    public ConfigurableServletWebServerFactory webServerFactory() {
         TomcatServletWebServerFactory factory = new TomcatServletWebServerFactory();
         factory.addConnectorCustomizers((TomcatConnectorCustomizer) connector -> connector.setProperty("relaxedQueryChars", "|{}[]\\"));
         return factory;
