@@ -1,5 +1,5 @@
 server:
-  port: 8001
+  port: 8002
 
 spring:
   application:
@@ -25,5 +25,4 @@ eureka:
 #  type-aliases-package: com.meinergy.springcloud.eneities   #所有eneity别名类所在包
 mybatis-plus:
   config-location: classpath:mybatis-configration.xml
-  type-aliases-package: com.meinergy.springcloud.eneities
 

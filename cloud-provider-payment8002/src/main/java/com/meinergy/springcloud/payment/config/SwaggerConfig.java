@@ -1,4 +1,4 @@
-package com.meinergy.cloud.config;
+package com.meinergy.springcloud.payment.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -6,39 +6,34 @@ import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
 import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.service.ApiInfo;
-import springfox.documentation.service.Contact;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- * @author ：Wong
- * @date ：Created in 2020/7/4 13:32
- * @description：swagger配置类
- * @modified By：
- * @version:
+ * Swagger2Config
+ *
+ * @author chenwang
+ * @date 2020/7/6
  */
-
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
-
     @Bean
     public Docket createRestApi() {
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.meinergy.cloud.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.meinergy.springcloud.payment.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
 
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
-                .title("客户端消费者order80管理")
-                .description("客户端消费者order80模块")
-                .termsOfServiceUrl("http://localhost:80")
-                .contact(new Contact("客户端消费管理","baidu.com","666@outlook.com"))
+                .title("payment支付模块管理")
+                .description("com/meinergy/springcloud/payment")
+                .termsOfServiceUrl("http://localhost:8002")
                 .version("1.0")
                 .build();
     }

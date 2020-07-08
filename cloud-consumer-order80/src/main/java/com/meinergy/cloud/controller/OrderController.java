@@ -1,8 +1,8 @@
 package com.meinergy.cloud.controller;
 
 
-import com.meinergy.springcloud.entity.CommonResult;
-import com.meinergy.springcloud.entity.Payment;
+import com.meinergy.springcloud.commons.entity.CommonResult;
+import com.meinergy.springcloud.commons.entity.Payment;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;

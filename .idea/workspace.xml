@@ -19,11 +19,75 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c8e29d-5358-4928-8118-575b68993662" name="Default Changelist" comment="修改配置" />
+    <list default="true" id="e2c8e29d-5358-4928-8118-575b68993662" name="Default Changelist" comment="修改配置">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/smartfox_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/mapper/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/CodeAutoGenetationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/CommonMethodUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/GenerateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/PaymentMain8002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/controller/PaymentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/mapper/PaymentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/service/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/utils/CommonMethodUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/utils/GenerateConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/utils/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/mybatis-configration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/meinergy/cloud/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/meinergy/cloud/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/meinergy/cloud/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/java/com/meinergy/cloud/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/OrderMain80.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/OrderMain80.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/config/SwaggerConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/controller/OrderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/PaymentMain8001.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/PaymentMain8001.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/dao/PaymentDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/service/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/service/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/service/impl/PaymentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/PaymentMain8001.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/controller/PaymentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/dao/PaymentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/service/PaymentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/service/impl/PaymentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/mapper/PaymentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-entity/src/main/java/com/meinergy/springcloud/EntityMain.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-entity/src/main/java/com/meinergy/springcloud/entity/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-entity/src/main/java/com/meinergy/springcloud/commons/entity/CommonResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-entity/src/main/java/com/meinergy/springcloud/entity/Payment.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-entity/src/main/java/com/meinergy/springcloud/commons/entity/Payment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-entity/target/classes/com/meinergy/springcloud/EntityMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-entity/target/classes/com/meinergy/springcloud/entity/CommonResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-entity/target/classes/com/meinergy/springcloud/entity/Payment.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="AUTO_SHOW_ERRORS_IN_EDITOR" value="false" />
@@ -39,7 +103,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev_home" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,9 +111,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="E:\DeverlopmentTool\Maven3.6\maven-repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../Maven3.6/apache-maven-3.6.0" />
-        <option name="userSettingsFile" value="E:\DeverlopmentTool\Maven3.6\apache-maven-3.6.0\conf\settings.xml" />
+        <option name="localRepository" value="G:\devtools\apache-maven-3.6.3\repo" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="userSettingsFile" value="G:\devtools\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -60,42 +124,113 @@
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.meinergy.cloud.entity" />
-      <recent name="com.meinergy.cloud.config" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\git_wong\spring-cloud\cloud-provider-payment8002\src\main\resources" />
+      <recent name="G:\git_wong\spring-cloud\cloud-provider-payment8001\src\main\resources" />
+      <recent name="G:\git_wong\spring-cloud\cloud-provider-payment8002\src\main\java" />
       <recent name="E:\DeverlopmentTool\idea项目\cloud2020\springcloud-entity\src\main\java\com\meinergy\springcloud\entity" />
       <recent name="E:\DeverlopmentTool\idea项目\cloud2020\cloud-eneity\src\main\java\com\meinergy\cloud\entity" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.meinergy.springcloud.payment.utils" />
+      <recent name="com.meinergy.cloud.entity" />
+      <recent name="com.meinergy.cloud.config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\git_wong\spring-cloud\cloud-provider-payment8002\src\main\resources" />
+      <recent name="G:\git11\spring-cloud\cloud-provider-payment8001\src\main\resources\mapper" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="configurationTypes">
-      <set>
-        <option value="SpringBootApplicationConfigurationType" />
-      </set>
-    </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.PaymentMain8001">
+  <component name="RunManager" selected="Spring Boot.OrderMain80 (1)">
+    <configuration name="CodeAutoGenetationUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.meinergy.springcloud.payment.utils.CodeAutoGenetationUtil" />
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meinergy.springcloud.payment.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.meinergy.springcloud.payment.utils.Generator" />
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meinergy.springcloud.payment.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonMethodUtil.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meinergy.springcloud.payment.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.meinergy.springcloud.payment.utils" />
+      <option name="MAIN_CLASS_NAME" value="com.meinergy.springcloud.payment.utils.CommonMethodUtil" />
+      <option name="METHOD_NAME" value="run" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaMain7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-eureka-server7001" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.cloud.EurekaMain7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaMain7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-euerka-server7002" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.cloud.EurekaMain7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-consumer-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meinergy.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.cloud.OrderMain80" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,13 +242,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="cloudproviderpayment8001" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.springcloud.PaymentMain8001" />
+    <configuration name="PaymentMain8001 (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.springcloud.payment.PaymentMain8001" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.springcloud.payment.PaymentMain8001" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.meinergy.springcloud.payment.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.springcloud.payment.PaymentMain8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ZuulMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-zuul-server8888" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.meinergy.cloud.ZuulMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.OrderMain80 (1)" />
+        <item itemvalue="Spring Boot.PaymentMain8002" />
+        <item itemvalue="JUnit.CommonMethodUtil.run" />
+        <item itemvalue="Application.Generator" />
+        <item itemvalue="Application.CodeAutoGenetationUtil" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -134,16 +306,35 @@
       <workItem from="1593887866027" duration="1723000" />
       <workItem from="1593917860162" duration="1328000" />
       <workItem from="1593919903089" duration="2569000" />
+      <workItem from="1594088266565" duration="15306000" />
+      <workItem from="1594171683245" duration="11861000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="590" y="114" key="#OrderMain80" timestamp="1594193586760">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="114" key="#OrderMain80/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193586760" />
+    <state x="590" y="114" key="#PaymentMain8001" timestamp="1594193528524">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="590" y="114" key="#PaymentMain8001/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193528524" />
     <state x="440" y="94" key="#Project_Structure" timestamp="1594026287567">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,37 +343,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="412" key="#YAML/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026310228" />
-    <state width="1578" height="388" key="GridCell.Tab.0.bottom" timestamp="1594026260918">
+    <state x="48" y="317" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1594193156702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260918" />
-    <state width="1578" height="388" key="GridCell.Tab.0.center" timestamp="1594026260917">
+    <state x="48" y="317" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193156702" />
+    <state x="543" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594192187440">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260917" />
-    <state width="1578" height="388" key="GridCell.Tab.0.left" timestamp="1594026260917">
+    <state x="543" y="443" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594192187440" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1594177587418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260917" />
-    <state width="1578" height="388" key="GridCell.Tab.0.right" timestamp="1594026260918">
+    <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1594102178851" />
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594177587418" />
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom" timestamp="1594193803577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260918" />
-    <state width="1578" height="388" key="GridCell.Tab.1.bottom" timestamp="1594026260918">
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state width="1877" height="224" key="GridCell.Tab.0.center" timestamp="1594193803577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260918" />
-    <state width="1578" height="388" key="GridCell.Tab.1.center" timestamp="1594026260918">
+    <state width="1877" height="224" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state width="1877" height="224" key="GridCell.Tab.0.left" timestamp="1594193803577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260918" />
-    <state width="1578" height="388" key="GridCell.Tab.1.left" timestamp="1594026260918">
+    <state width="1877" height="224" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state width="1877" height="224" key="GridCell.Tab.0.right" timestamp="1594193803577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260918" />
-    <state width="1578" height="388" key="GridCell.Tab.1.right" timestamp="1594026260918">
+    <state width="1877" height="224" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state width="1877" height="224" key="GridCell.Tab.1.bottom" timestamp="1594193803577">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1578" height="388" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594026260918" />
+    <state width="1877" height="224" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state width="1877" height="224" key="GridCell.Tab.1.center" timestamp="1594193803577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state width="1877" height="224" key="GridCell.Tab.1.left" timestamp="1594193803577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state width="1877" height="224" key="GridCell.Tab.1.right" timestamp="1594193803577">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594193803577" />
+    <state x="359" y="350" key="Maven.ArtifactSearchDialog" timestamp="1594093175172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="359" y="350" key="Maven.ArtifactSearchDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594093175172" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1594192788768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594192788768" />
+    <state x="-1270" y="112" width="1151" height="817" key="dock-window-1" timestamp="1594101722785">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="-1270" y="112" width="1151" height="817" key="dock-window-1/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594101722785" />
+    <state x="641" y="307" key="git4idea.merge.GitPullDialog" timestamp="1594083333805">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="641" y="307" key="git4idea.merge.GitPullDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594083333805" />
+    <state x="334" y="180" key="new project wizard" timestamp="1594192064015">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="334" y="180" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594192064015" />
   </component>
 </project>
