@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.meinergy.springcloud.payment.mapper.UserMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.meinergy.springcloud.commons.entity.User">
+        <id column="u_id" property="uId" />
+        <result column="u_name" property="uName" />
+        <result column="u_pwd" property="uPwd" />
+        <result column="u_age" property="uAge" />
+        <result column="u_describe" property="uDescribe" />
+        <result column="u_phone" property="uPhone" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        u_id, u_name, u_pwd, u_age, u_describe, u_phone
+    </sql>
+
+</mapper>
