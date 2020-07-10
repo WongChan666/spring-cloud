@@ -33,7 +33,7 @@ public class SwaggerConfig {
         return new ApiInfoBuilder()
                 .title("payment支付模块管理")
                 .description("payment")
-                .termsOfServiceUrl("http://localhost:8001")
+                .termsOfServiceUrl("http://localhost:8001/doc.html")
                 .version("1.0")
                 .build();
     }

@@ -4,12 +4,12 @@ import java.lang.reflect.Field;
 import java.util.Date;
 
 /**
- * CommonMethodUtil
+ * ReflectMethodUtil
  * 公共工具方法类
  *
  * @author chenwang
  */
-public class CommonMethodUtil {
+public class ReflectMethodUtil {
 
     /**
      * 根据属性index设置对象的属性值
@@ -33,6 +33,7 @@ public class CommonMethodUtil {
             System.out.println("--------------------------------------设置对象属性值报错，错误信息：" + e.getMessage());
         }
     }
+
 
     /**
      * 根据属性index设置对象的属性值

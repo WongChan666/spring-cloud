@@ -19,24 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2c8e29d-5358-4928-8118-575b68993662" name="Default Changelist" comment="修改配置">
-      <change afterPath="$PROJECT_DIR$/cloud-api-commons/src/main/resources/application.yml" afterDir="false" />
+    <list default="true" id="e2c8e29d-5358-4928-8118-575b68993662" name="Default Changelist" comment="增加redis">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/config/SwaggerConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-consumer-order80/target/classes/com/meinergy/cloud/config/SwaggerConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/service/impl/PaymentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/service/impl/PaymentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/CommonMethodUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/CommonMethodUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/meinergy/springcloud/payment/controller/PaymentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/CommonMethodUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/meinergy/springcloud/payment/utils/ReflectMethodUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/payment/service/impl/PaymentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-provider-payment8001/target/classes/com/meinergy/springcloud/payment/service/impl/PaymentServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-entity/src/main/java/com/meinergy/springcloud/commons/entity/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-entity/src/main/java/com/meinergy/springcloud/commons/entity/CommonResult.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,9 +232,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OrderMain80 (1)" />
         <item itemvalue="Application.PaymentServiceImpl" />
         <item itemvalue="JUnit.CommonMethodUtil.run" />
-        <item itemvalue="Spring Boot.OrderMain80 (1)" />
         <item itemvalue="Spring Boot.PaymentMain8002" />
         <item itemvalue="Application.Generator" />
       </list>
@@ -272,8 +261,17 @@
       <workItem from="1593919903089" duration="2569000" />
       <workItem from="1594088266565" duration="15306000" />
       <workItem from="1594171683245" duration="11861000" />
-      <workItem from="1594194614627" duration="16920000" />
+      <workItem from="1594194614627" duration="21256000" />
+      <workItem from="1594359309409" duration="2293000" />
     </task>
+    <task id="LOCAL-00001" summary="增加redis">
+      <created>1594285821601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594285821602</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +291,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="增加payment8002模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加payment8002模块" />
+    <MESSAGE value="增加redis" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加redis" />
   </component>
   <component name="WindowStateProjectService">
     <state x="590" y="114" key="#OrderMain80" timestamp="1594193586760">
@@ -325,38 +324,38 @@
     </state>
     <state x="-1180" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@-1920.0.1920.1040" timestamp="1594102178851" />
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594177587418" />
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1594285405852">
+    <state width="1528" height="186" key="GridCell.Tab.0.bottom" timestamp="1594347801309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594285405852" />
-    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1594285405852">
+    <state width="1528" height="186" key="GridCell.Tab.0.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801309" />
+    <state width="1528" height="186" key="GridCell.Tab.0.center" timestamp="1594347801309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594285405852" />
-    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1594285405851">
+    <state width="1528" height="186" key="GridCell.Tab.0.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801309" />
+    <state width="1528" height="186" key="GridCell.Tab.0.left" timestamp="1594347801308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594285405851" />
-    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1594285405852">
+    <state width="1528" height="186" key="GridCell.Tab.0.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801308" />
+    <state width="1528" height="186" key="GridCell.Tab.0.right" timestamp="1594347801309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="237" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594285405852" />
-    <state width="1528" height="136" key="GridCell.Tab.1.bottom" timestamp="1594274735021">
+    <state width="1528" height="186" key="GridCell.Tab.0.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801309" />
+    <state width="1528" height="186" key="GridCell.Tab.1.bottom" timestamp="1594347801310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="136" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594274735021" />
-    <state width="1528" height="136" key="GridCell.Tab.1.center" timestamp="1594274735021">
+    <state width="1528" height="186" key="GridCell.Tab.1.bottom/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801310" />
+    <state width="1528" height="186" key="GridCell.Tab.1.center" timestamp="1594347801309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="136" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594274735021" />
-    <state width="1528" height="136" key="GridCell.Tab.1.left" timestamp="1594274735021">
+    <state width="1528" height="186" key="GridCell.Tab.1.center/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801309" />
+    <state width="1528" height="186" key="GridCell.Tab.1.left" timestamp="1594347801309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="136" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594274735021" />
-    <state width="1528" height="136" key="GridCell.Tab.1.right" timestamp="1594274735021">
+    <state width="1528" height="186" key="GridCell.Tab.1.left/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801309" />
+    <state width="1528" height="186" key="GridCell.Tab.1.right" timestamp="1594347801309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1528" height="136" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594274735021" />
+    <state width="1528" height="186" key="GridCell.Tab.1.right/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594347801309" />
     <state x="359" y="350" key="Maven.ArtifactSearchDialog" timestamp="1594285144239">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -365,6 +364,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594285471652" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1594285831527">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594285831527" />
     <state x="-1680" y="203" width="1447" height="709" key="dock-window-1" timestamp="1594256662811">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
@@ -377,9 +380,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="180" key="new project wizard/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594192064015" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594274069961">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1594344135133">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594274069961" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1594344135133" />
   </component>
 </project>
